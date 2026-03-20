@@ -8,8 +8,11 @@
 生成output下的dwm
 
 # 下载和更新 dwm-flexipatch
-+ git clone https://github.com/bakkeby/dwm-flexipatch.git
-+ 当前dwm-flexipatch下面的源码使用github.com/bakkeby/dwm-flexipatch.git下当前最新版本，原作者后续会更新，因此
-若有必要，也可以从原作者的仓库拉取最新的代码覆盖当前目录下的代码
-+ flexipatch-finalizer.sh，patches.h和config.h 一般不要覆盖，若原作者仓库的patches.def.h和config.def.h更新较大
-则需要备份flexipatch-finalizer.sh，patches.h和config.h并重新生成，之后再手动合并
+
+```git
+git clone https://github.com/bakkeby/dwm-flexipatch.git
+```
+
++ 当前dwm-flexipatch下面的源码使用 github.com/bakkeby/dwm-flexipatch.git 下当前最新版本，原作者后续会更新，因此若有必要，也可以从原作者的仓库拉取最新的代码覆盖当前目录下的代码
+
++ flexipatch-finalizer.sh，patches.h 和 config.h 一般不要覆盖，若原作者仓库的patches.def.h和config.def.h更新较大则需要备份 flexipatch-finalizer.sh，patches.h和config.h并重新生成，之后再手动合并
